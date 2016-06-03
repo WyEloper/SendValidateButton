@@ -16,6 +16,7 @@ import android.widget.Button;
 /**
  * @Description:发送验证码的button，带有倒计时，以及在发送的过程中不可点击； 调用方式 view.startTickWork()方法即可；
  * @author Wangyong
+ * @创建时间 2016年6月3日14:57:35
  */
 public class SendValidateButton extends Button {
 	private static final int			DISABLE_TIME	= 60;
